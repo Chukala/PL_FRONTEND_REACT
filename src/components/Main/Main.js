@@ -20,7 +20,7 @@ import Details from '../Product/Details';
 
 const Main = () => (
   <Switch>
-    <Route exact path="/" component={Home}/>
+    <Route exact path="/PL_FRONTEND_REACT" component={Home}/>
     <Route path="/women" component={Women}/>
     <Route path="/men" component={Men}/>
     <Route path="/login" component={LogIn}/>
