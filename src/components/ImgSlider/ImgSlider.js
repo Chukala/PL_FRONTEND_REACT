@@ -6,23 +6,23 @@ import './slider.css';
 //import SliderArrow from '../components/Global/SliderArrow';
 //import '../images/suits/suit01.jpg'
 
-
  class ImgSlider extends Component {
     render() {
+      
 
      const slideImgs = [
           {
           id: 1,
-          "img": "/img/lather-img/jacket-female.png"
+          "img": "../img/lather-img/jacket-female.png"
           },{
           id:2,
-          "img": "/img/leather-02.jpg"
+          "img": "../img/leather-02.jpg"
         },{
           id:3,
-          "img": "/img/lather-img/jacket001.jfif"
+          "img": "../img/lather-img/jacket001.jfif"
         },{
           "id": 4,
-          "img": "/img/leather-01.jpg"
+          "img": "../img/leather-01.jpg"
         }
       ]
      const sliderSettings = {

@@ -4,7 +4,7 @@
          "title": "Jacket",
          "name": "HERITAGE GYMSACK",
          "brand": "leather-man",
-         "img": "./img/lather-img/jacket01.jpg",
+         "img": "/img/lather-img/jacket01.jpg",
          "price": 1499,
          "color": "black",
          "size": "One Size",
