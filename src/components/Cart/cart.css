@@ -1,0 +1,222 @@
+/*************************
+*******Cart CSS******
+**************************/
+#do_action {
+    margin-bottom: 50px;
+}
+
+#empty_cart_items .empty_cart_info {
+    border-top: 3px solid #FE980F;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 2px -2px #FE980F;
+}
+.empty_cart_description .back_to_shop{
+    background: #FE980F;
+    border-radius: 0;
+    color: #FFFFFF;
+    margin: 18px 0px;
+    
+    border: none;
+    padding: 5px 15px;
+    }
+
+#empty_cart_items .empty_cart_info .empty_cart_menu {
+    background: #f7f6f7;
+    height: 51px;
+}
+#cart_items .cart_info {
+    border: 1px solid #E6E4DF;
+    margin-bottom: 50px
+}
+
+#cart_items .cart_info .cart_menu {
+    background: #FE980F;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+#cart_items .cart_info .table.table-condensed thead tr {
+    height: 51px;
+}
+
+#cart_items .cart_info .table.table-condensed tr {
+    border-bottom: 1px solid #F7F7F0;
+    overflow-x: hidden;
+}
+
+#cart_items .cart_info .table.table-condensed tr:last-child {
+    border-bottom: 0;
+}
+
+.cart_info table tr td {
+    border-top: 0 none;
+    vertical-align: inherit;
+}
+
+#cart_items .cart_info .image {
+    padding-left: 30px;
+}
+
+#cart_items .cart_info .cart_description h4 {
+    margin-bottom: 0
+}
+
+#cart_items .cart_info .cart_description h4 a {
+    color: #363432;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#cart_items .cart_info .cart_description p {
+    color: #696763
+}
+
+#cart_items .cart_info .cart_price p {
+    color: #696763;
+    font-size: 18px
+}
+
+#cart_items .cart_info .cart_total_price {
+    color: #FE980F;
+    font-size: 24px;
+}
+
+.cart_product {
+    display: block;
+    margin: 15px -70px 10px 25px;
+}
+
+.cart_quantity_input{
+    color: #696763;
+    /*float: left;*/
+    font-size: 16px;
+    /*text-align: center;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.cart_delete {
+    display: block;
+    margin-right: -12px;
+    overflow: hidden;
+}
+
+.cart_delete a {
+    background: #F0F0E9;
+    color: #FFFFFF;
+    padding: 5px 7px;
+    font-size: 16px
+}
+
+.cart_delete a:hover {
+    background: #FE980F
+}
+
+#do_action .total_area {
+    padding-bottom: 18px !important;
+}
+
+#do_action .total_area,
+#do_action .chose_area {
+    border: 1px solid #E6E4DF;
+    color: #696763;
+    padding: 30px 25px 30px 0;
+    margin-bottom: 80px;
+}
+
+.total_area span {
+    float: right;
+}
+
+.total_area ul li {
+    background: #E6E4DF;
+    color: #696763;
+    margin-top: 10px;
+    padding: 7px 20px;
+    list-style: none;
+}
+
+.update,
+.check_out {
+    background: #FE980F;
+    border-radius: 0;
+    color: #FFFFFF;
+    margin-top: 18px;
+    border: none;
+    padding: 5px 15px;
+}
+.check_out:hover{
+    background: #FEAC3E;
+    color: #fff;
+}
+
+.update {
+    margin-left: 40px;
+}
+
+/*checkout page style*/
+input[type="text"], 
+input[type="email"], 
+select, 
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc !important;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+/*.checkout_title {
+    border-bottom: 3px solid #FE980F;
+}*/
+ .order_info {
+    border: 1px solid #E6E4DF;
+    margin-bottom: 50px
+}
+.order_p{
+    font-weight: bold;
+}
+.col-sm-6 .order{
+    margin-top: 50px;
+}
+.btn-black {
+    background: transparent;
+    text-transform: capitalize;
+    font-size: 0.8rem !important;
+    color: #232528;
+    border-radius: 0 !important;
+    border: 0.1rem solid #232528 !important;
+}
+.btn-black:hover{
+    background: #232528 !important;
+    color: #f3f3f3 !important;
+}
+.cart-icon{
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #FE980F;
+}
+#ShopLoginForm_Login{
+    border: 0 !important;
+    outline: none !important;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+#login-password-form input {
+  border: 0 !important;
+  outline: 0 !important;
+}
+.checkout_container{
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  border-color: rgb(230, 230, 230);
+}
+
+

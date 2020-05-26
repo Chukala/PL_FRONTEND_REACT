@@ -1,0 +1,215 @@
+.mdl-layout__content{
+    width: 100%;
+    margin: 20px auto;
+}
+.login-container {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: #EBEBEB;
+}
+
+.login-form-container,
+.contact_wrapper {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    background: #fff;
+}
+
+.box-wrapper,
+.contact_box_wrapper {
+    max-width: 410px;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    background: #fff;
+    display: flex;
+    flex-flow: column;
+}
+
+.shop_box_wrapper {
+    max-width: 410px;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    background: #fff;
+    display: flex;
+    flex-flow: column;
+}
+
+.clear-fix {
+    width: 100%;
+    height: 1px;
+}
+
+.clear {
+    width: 100%;
+    height: 50px;
+    background: #EBEBEB;
+}
+
+.login,
+.des_wrapper .contact {
+    width: 100%;
+    height: auto;
+    margin: 20px auto 5px auto;
+    text-align: center;
+}
+
+.losenord_div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.login_btn button,
+.send_btn button {
+    max-width: 410px;
+    width: 100%;
+    height: 52px;
+    color: #fff;
+    background: #fe980f;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+.login_btn button,
+.send_btn button:hover {
+    background: #fe980f;
+    color: #fff;
+}
+
+.divider_component {
+    color: #000;
+    background-color: #fff;
+    line-height: 1.4;
+    text-align: center;
+    border-bottom: 1px solid #c4c4c4;
+    width: 90%;
+    height: 20px;
+    padding: 0 16px;
+    font-weight: 700;
+    font-size: 1.25rem;
+    position: relative;
+    top: -8px;
+    margin: 10px auto;
+}
+
+.divider_component span {
+    background: #fff;
+    z-index: 5;
+    opacity: 1;
+    padding: 0px 16px;
+    margin: 0px;
+}
+
+.divider_component span a {
+    color: #000;
+}
+
+.fieldset{
+    padding: 0.25rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+}
+
+legend {
+    width:auto;
+    text-align: left;
+    margin: 15px;   
+}
+
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="text"],
+input[type="password"] {
+    border: none !important;
+    max-height: 52px;
+    font-weight: 700;
+    letter-spacing: .7px;
+    color: #000;
+    font-size: 1rem;
+    width: 90%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-bottom: 0px;
+    outline: 0px !important;
+}
+
+textarea {
+    max-width: 410px;
+    width: 100%;
+    height: auto;
+}
+
+.fa-user {
+    max-height: 40px;
+    min-width: 1px;
+    color: #696763;
+    padding-right: 5px;
+}
+
+#password_rem_chebox {
+    display: none;
+}
+
+#password_link,
+.villkor_link {
+    color: #fe980f;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.register-btn {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login_reg{
+    text-align: center;
+    margin: 5px auto;
+}
+
+.login_reg {
+    width: 100%;
+    margin: 20px auto 10px auto;
+}
+
+.content_header {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content_header h2 {
+    margin: 10px auto;
+    font-size: 1.125rem;
+    width: 20%;
+}
+
+.contact,
+.des_div {
+    text-align: center;
+    margin: auto;
+}
+
+/*login,registration,contact form style ends here */

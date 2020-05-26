@@ -1,0 +1,41 @@
+.slider-div{ 
+    margin-bottom: 50px;
+    /*overflow: hidden;*/
+}
+.slick-prev {
+    margin-left: 50px;
+}
+
+.slick-next {
+    margin-right: 50px;
+}
+.slider {
+    width: 50%;
+    margin: 100px auto;
+}
+
+/*.slick-slide {
+    margin: 0px 20px;
+}*/
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: orange;
+}
+.slider-div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height: 400px;
+}
+
+.carousel-img-container{
+    outline: none;
+    /*overflow: hidden;*/
+}
+
