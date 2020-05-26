@@ -24,7 +24,7 @@ class HeaderBottom extends Component {
                    ))}
                 </ul>
                 <div className="img-container">
-                     <img src = {"./img/lather-img/bags02.jfif"} alt = "img_bags"/>
+                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/bags02.jfif"} alt = "img_bags"/>
                 </div>
             </div>
         )
@@ -40,7 +40,7 @@ class HeaderBottom extends Component {
                    }
                 </ul>
                 <div className="img-container">
-                     <img src = {"./img/lather-img/belts02.jfif"} alt="img_bags"/>
+                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/belts02.jfif"} alt="img_bags"/>
                   </div>
             </div>
         )
@@ -56,7 +56,7 @@ class HeaderBottom extends Component {
                    }
                 </ul>
                 <div className="img-container">
-                     <img src = {"./img/lather-img/wallets02.jfif"} alt="img_bags"/>
+                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/wallets02.jfif"} alt="img_bags"/>
                   </div>
             </div>
         )
@@ -72,7 +72,7 @@ class HeaderBottom extends Component {
                    }
                 </ul>
                 <div className="img-container">
-                     <img src = {"./img/lather-img/07-Fencing-Jacket.jpg"} alt="img_jacket"/>
+                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/07-Fencing-Jacket.jpg"} alt="img_jacket"/>
                   </div>
             </div>
         )
@@ -88,7 +88,7 @@ class HeaderBottom extends Component {
                    }
                </ul>
                <div className="img-container">
-                     <img src = {"./img/lather-img/wallets04.jfif"} alt="img_Accessories"/>
+                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/wallets04.jfif"} alt="img_Accessories"/>
                   </div>
             </div>
         )

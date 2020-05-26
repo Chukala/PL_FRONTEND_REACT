@@ -17,7 +17,7 @@ const HeroSection = styled.section `
 const HeroImgDiv = styled.div `
     width: 100%;
     height: 100%;
-    background: url("/img/lather-img/women_hero04.jpg");
+    background: url("/PL_FRONTEND_REACT/img/lather-img/women_hero04.jpg");
     background-repeat: no-repeat;
     background-size: cover cover;
     background-position: center center;
