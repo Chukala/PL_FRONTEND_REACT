@@ -7,10 +7,10 @@ class BottomBar extends Component {
         return ( 
             <div className="header-bottom-info">
                 <div className="info_bar_msg">
-                    <a href="/">Lorem ipsum dolor sit amet,elit.t.o.m. 14/01 </a>
+                    <a href="/ethioLeather/product">Lorem ipsum dolor sit amet,elit.t.o.m. 14/01 </a>
                 </div>
                 <div className="info_bar_text">
-                    <a href="/">Shop</a>
+                    <a href="/ethioLeather/productlist">Shop</a>
                 </div>
             </div>
          );

@@ -16,18 +16,18 @@ import Details from '../Product/Details';
 
 const Main = () => (
   <Switch>
-    <Route exact path="/" component={Home}/>
-    <Route path="/women" component={Women}/>
-    <Route path="/men" component={Men}/>
-    <Route path="/login" component={LogIn}/>
-    <Route path="/register" component={Register}/>
-    <Route path="/cart" component={Cart}/>
-    <Route path="/cartone" component={CartOne}/>
+    <Route exact path="/ethioLeather" component={Home}/>
+    <Route path="/ethioLeather/women" component={Women}/>
+    <Route path="/ethioLeather/men" component={Men}/>
+    <Route path="/ethioLeather/login" component={LogIn}/>
+    <Route path="/ethioLeather/register" component={Register}/>
+    <Route path="/ethioLeather/cart" component={Cart}/>
+    <Route path="/ethioLeather/cartone" component={CartOne}/>
     
-    <Route path="/product" component={Product}/>
-    <Route path="/productlist" component={ProductList}/>
-    <Route path="/details/:id" component={Details}/>
-    <Route path="/checkout" component={Checkout}/>
+    <Route path="/ethioLeather/product" component={Product}/>
+    <Route path="/ethioLeather/productlist" component={ProductList}/>
+    <Route path="/ethioLeather/details/:id" component={Details}/>
+    <Route path="/ethioLeather/checkout" component={Checkout}/>
     
    
    

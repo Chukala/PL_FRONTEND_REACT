@@ -4,7 +4,9 @@
 #do_action {
     margin-bottom: 50px;
 }
-
+.mdl-layout__content{
+    min-height: 500px;
+}
 #empty_cart_items .empty_cart_info {
     border-top: 3px solid #FE980F;
     margin-bottom: 50px;

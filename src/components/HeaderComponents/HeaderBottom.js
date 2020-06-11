@@ -20,11 +20,11 @@ class HeaderBottom extends Component {
             <div className="submenu-div">
                 <ul className="submenu-item-ul">
                    {Bags.map(Bag => (
-                    <li key={Bag}><Link to= "/productlist">{Bag}</Link></li>
+                    <li key={Bag}><Link to= "/ethioLeather/productlist">{Bag}</Link></li>
                    ))}
                 </ul>
                 <div className="img-container">
-                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/bags02.jfif"} alt = "img_bags"/>
+                     <img src = {"/ethioLeather/img/lather-img/bags02.jfif"} alt = "img_bags"/>
                 </div>
             </div>
         )
@@ -35,12 +35,12 @@ class HeaderBottom extends Component {
                 <ul className="submenu-item-ul">
                    {
                     Belts.map(Belt => (
-                    <li key={Belt}><Link to="/belt">{Belt}</Link></li>
+                    <li key={Belt}><Link to="/ethioLeather/belt">{Belt}</Link></li>
                    ))
                    }
                 </ul>
                 <div className="img-container">
-                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/belts02.jfif"} alt="img_bags"/>
+                     <img src = {"/ethioLeather/img/lather-img/belts02.jfif"} alt="img_bags"/>
                   </div>
             </div>
         )
@@ -51,12 +51,12 @@ class HeaderBottom extends Component {
                 <ul className = "submenu-item-ul">
                     {
                     Walets.map(Walet => (
-                    <li key={Walet}><a href="/walet">{Walet}</a></li>
+                    <li key={Walet}><a href="/ethioLeather/walet">{Walet}</a></li>
                    ))
                    }
                 </ul>
                 <div className="img-container">
-                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/wallets02.jfif"} alt="img_bags"/>
+                     <img src = {"/ethioLeather/img/lather-img/wallets02.jfif"} alt="img_bags"/>
                   </div>
             </div>
         )
@@ -67,12 +67,12 @@ class HeaderBottom extends Component {
                 <ul className="submenu-item-ul">
                     {
                     Jackets.map(Jacket => (
-                    <li key={Jacket}><Link to = "/jacket">{Jacket}</Link></li>
+                    <li key={Jacket}><Link to = "/ethioLeather/jacket">{Jacket}</Link></li>
                    ))
                    }
                 </ul>
                 <div className="img-container">
-                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/07-Fencing-Jacket.jpg"} alt="img_jacket"/>
+                     <img src = {"/ethioLeather/img/lather-img/07-Fencing-Jacket.jpg"} alt="img_jacket"/>
                   </div>
             </div>
         )
@@ -83,12 +83,12 @@ class HeaderBottom extends Component {
                 <ul className="submenu-item-ul">
                     {
                     Accessories.map(Accessorie => (
-                    <li key={Accessorie}><Link to="/accessorie">{Accessorie}</Link></li>
+                    <li key={Accessorie}><Link to="/ethioLeather/accessorie">{Accessorie}</Link></li>
                    ))
                    }
                </ul>
                <div className="img-container">
-                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/wallets04.jfif"} alt="img_Accessories"/>
+                     <img src = {"/ethioLeather/img/lather-img/wallets04.jfif"} alt="img_Accessories"/>
                   </div>
             </div>
         )

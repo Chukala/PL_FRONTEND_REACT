@@ -8,12 +8,12 @@ class Cart extends Component{
     render(){
         const { cartItems } = this.props;
         return(
-        <section>
+        <section >
           {((cartItems === undefined) || (cartItems.length === 0)) ?
-                <div id="empty_cart_items">
-                    <div className="container">
+                <div id="empty_cart_items" style={{marginBottom: 300}}>
+                    <div className="container" >
                         <div><h3>Cart</h3></div>
-                        <div className="empty_cart_info">
+                        <div className="empty_cart_info" >
                             <table className="table table-condensed">
                                 <thead>
                                     <tr className="empty_cart_menu">

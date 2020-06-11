@@ -20,15 +20,15 @@ export default function HeaderMiddle(){
                       <div className="middle-menu pull-left">
                           <ul className="nav navbar-nav">
                           <Navigation>
-                            <li><Link to ="/women">WOMEN</Link></li>  
-                            <li><Link to ="/men">MEN</Link></li> 
+                            <li><Link to ="/ethioLeather/women">WOMEN</Link></li>  
+                            <li><Link to ="/ethioLeather/men">MEN</Link></li> 
                           </Navigation>  
                           </ul>
                       </div>
                   </div>
                   <div className="col-sm-4">
                       <div className="logo pull-center text-center">
-                          <Link to="/"><img src={logo} style={{width: 100}} alt="Logo"/></Link>
+                          <Link to="/ethioLeather"><img src={logo} style={{width: 100}} alt="Logo"/></Link>
                       </div>
                   </div>
                 
@@ -36,8 +36,8 @@ export default function HeaderMiddle(){
                       <div className="middle-menu pull-right">
                           <ul className="nav navbar-nav">
                           <Navigation>
-                              <li><Link to="/login"><i className="fa fa-lock"></i> Login</Link></li>
-                              <li><Link to="/cartone" className ="shopping_bag"><i className="fa fa-shopping-cart"></i><span className="badge badge-pill badge-danger">{(cart.length > 0) ? cart.length: 0}</span>Cart</Link></li>    
+                              <li><Link to="/ethioLeather/login"><i className="fa fa-lock"></i> Login</Link></li>
+                              <li><Link to="/ethioLeather/cartone" className ="shopping_bag"><i className="fa fa-shopping-cart"></i><span className="badge badge-pill badge-danger">{(cart.length > 0) ? cart.length: 0}</span>Cart</Link></li>    
                           </Navigation>
                           </ul>
                       </div>
