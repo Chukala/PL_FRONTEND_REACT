@@ -115,7 +115,7 @@ class Navbar extends React.Component{
                         </div>
                         <div className="col-sm-4">
                             <div className="logo pull-center text-center">
-                                <Link to="/home"><img src={logo} alt="Logo"/></Link>
+                                <Link to="/"><img src={logo} alt="Logo"/></Link>
                             </div>
                         </div>
                         <div className="col-sm-4">

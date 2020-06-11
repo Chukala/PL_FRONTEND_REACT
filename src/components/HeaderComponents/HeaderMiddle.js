@@ -28,7 +28,7 @@ export default function HeaderMiddle(){
                   </div>
                   <div className="col-sm-4">
                       <div className="logo pull-center text-center">
-                          <Link to="/PL_FRONTEND_REACT"><img src={logo} style={{width: 100}} alt="Logo"/></Link>
+                          <Link to="/"><img src={logo} style={{width: 100}} alt="Logo"/></Link>
                       </div>
                   </div>
                 

@@ -1,42 +1,46 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import '../PopularProduct/popularProduct.css';
+import {Link} from 'react-router-dom';
+
+import { ProductConsumer } from '../../context/context';
+
+import PropTypes from 'prop-types';
+
 
 class Product extends Component {
-    render() {
- // img src ={`/products/${product.sku}_2.jpg`}
-  const { id,name,img,price,title } = this.props.product;
-  //const productItems = this.props.product;
-  //{`#${id}`}
-    return (
-        <div className="col-sm-3">
-                <div className="product-image-wrapper">
-                    <div className="single-products" key={id}>
-                     <Link to={`/cart/${this.props.product.id}`} onClick={(e)=>this.props.handleAddToCart(e, this.props.product)}>
+    
+    render() { 
+        const { id, brand,name, img, price ,inCart } = this.props.product;
+        return ( 
+            <ProductConsumer>
+            {(value) => (
+                <div className="col-sm-3">
+                  <div className="product-image-wrapper">
+                    <div className="single-products" key={id} onClick={() => value.handleDetail(id)}>
                         <div className="productinfo text-center">
-                            <img src={img} alt={title} />
-                            <h4>{price}</h4>
-                            <p>{name}</p>
-                            <button to={`/cart/${this.props.product.id}`} className="btn btn-default add-to-cart" onClick={(e) => this.handleAddToCart(e, this.props.product)}><i className="fa fa-shopping-cart"></i>Add to cart</button>
-                            <Link to={`/productdetails/${this.props.product.id}`} className="btn btn-default btn-primary">View Details</Link>
+                            <Link to={`/details/${this.props.product.id}/${name}`}>
+                                <img src={img} alt={brand} />
+                                <h4>{price}</h4>
+                                <p>{name}</p>
+                            </Link>
+                            <button className="btn btn-default add-to-cart" disabled={inCart ? true : false} onClick={()=>{value.addToCart(id);}}><i className="fa fa-shopping-cart"></i>Add to cart</button>
                         </div>
-                     </Link>
                     </div>
                 </div>
-            </div> 
-     );
-         
-        
+                </div>
+            )}            
+        </ProductConsumer>
+         );
     }
 }
-
+ 
+Product.propTypes = {
+        product: PropTypes.shape({
+        id: PropTypes.number,
+        img: PropTypes.string,
+        price: PropTypes.number,
+        name: PropTypes.string,
+        brand: PropTypes.string,
+        inCart: PropTypes.bool
+    }).isRequired
+}
 export default Product;
-
-
-
-
-  
-  
-    
-    
-    

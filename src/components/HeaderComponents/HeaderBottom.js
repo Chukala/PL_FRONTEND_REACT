@@ -20,11 +20,11 @@ class HeaderBottom extends Component {
             <div className="submenu-div">
                 <ul className="submenu-item-ul">
                    {Bags.map(Bag => (
-                    <li key={Bag}><Link to= "/productlistone">{Bag}</Link></li>
+                    <li key={Bag}><Link to= "/productlist">{Bag}</Link></li>
                    ))}
                 </ul>
                 <div className="img-container">
-                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/bags02.jfif"} alt = "img_bags"/>
+                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/bags02.jfif"} alt = "img_bags"/>
                 </div>
             </div>
         )
@@ -40,7 +40,7 @@ class HeaderBottom extends Component {
                    }
                 </ul>
                 <div className="img-container">
-                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/belts02.jfif"} alt="img_bags"/>
+                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/belts02.jfif"} alt="img_bags"/>
                   </div>
             </div>
         )
@@ -56,7 +56,7 @@ class HeaderBottom extends Component {
                    }
                 </ul>
                 <div className="img-container">
-                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/wallets02.jfif"} alt="img_bags"/>
+                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/wallets02.jfif"} alt="img_bags"/>
                   </div>
             </div>
         )
@@ -72,7 +72,7 @@ class HeaderBottom extends Component {
                    }
                 </ul>
                 <div className="img-container">
-                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/07-Fencing-Jacket.jpg"} alt="img_jacket"/>
+                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/07-Fencing-Jacket.jpg"} alt="img_jacket"/>
                   </div>
             </div>
         )
@@ -88,7 +88,7 @@ class HeaderBottom extends Component {
                    }
                </ul>
                <div className="img-container">
-                     <img src = {"./PL_FRONTEND_REACT/img/lather-img/wallets04.jfif"} alt="img_Accessories"/>
+                     <img src = {"/PL_FRONTEND_REACT/img/lather-img/wallets04.jfif"} alt="img_Accessories"/>
                   </div>
             </div>
         )
@@ -116,12 +116,6 @@ class HeaderBottom extends Component {
                                 </div>
                             </div>
                         </div>
-                        {/*<div className="col-sm-3">
-                            <div className="search_box pull-right">
-                                <input type="text" placeholder="Search"/>
-                            </div>
-                        </div>
-                        */}
                     </div>
                 </div>
             </div>

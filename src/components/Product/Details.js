@@ -32,7 +32,7 @@ class Details extends Component {
                                   <p className="text-capitalize font-weight-bold mt-3 mb-0">some info about product:</p>
                                   <p className="text-muted lead ">{info}</p>
                                   <div>
-                                      <Link to="/productlistone">
+                                      <Link to="/productlist">
                                         <button className="btn btn-default add-to-cart mr-3">
                                             Back to products
                                         </button>
