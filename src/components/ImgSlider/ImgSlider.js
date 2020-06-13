@@ -13,16 +13,16 @@ import './slider.css';
      const slideImgs = [
           {
           id: 1,
-          "img": "/PL_FRONTEND_REACT/img/lather-img/jacket-female.png"
+          "img": "/ethioLeather/img/lather-img/jacket-female.png"
           },{
           id:2,
-          "img": "/PL_FRONTEND_REACT/img/leather-02.jpg"
+          "img": "/ethioLeather/img/leather-02.jpg"
         },{
           id:3,
-          "img": "/PL_FRONTEND_REACT/img/lather-img/jacket001.jfif"
+          "img": "/ethioLeather/img/lather-img/jacket001.jfif"
         },{
           "id": 4,
-          "img": "/PL_FRONTEND_REACT/img/leather-01.jpg"
+          "img": "/ethioLeather/img/leather-01.jpg"
         }
       ]
      const sliderSettings = {

@@ -161,13 +161,13 @@ class Navbar extends React.Component{
                 </div>
             </div>
             <div className="header-bottom-info">
-            <div className="info_bar_msg">
-                <a href="/">Lorem ipsum dolor sit amet,elit.t.o.m. 14/01 </a>
-            </div>
-            <div className="info_bar_text">
-                <a href="/">Shop</a>
-            </div>
-       </div>
+                <div className="info_bar_msg">
+                    <a href="/">Lorem ipsum dolor sit amet,elit.t.o.m. 14/01 </a>
+                </div>
+                <div className="info_bar_text">
+                    <a href="/">Shop</a>
+                </div>
+           </div>
       </header> 
     );
  }

@@ -17,12 +17,17 @@ class Product extends Component {
                   <div className="product-image-wrapper">
                     <div className="single-products" key={id} onClick={() => value.handleDetail(id)}>
                         <div className="productinfo text-center">
-                            <Link to={`/details/${this.props.product.id}/${name}`}>
-                                <img src={img} alt={brand} />
-                                <h4>{price}</h4>
-                                <p>{name}</p>
+                            <Link to={`/ethioLeather/details/${this.props.product.id}/${name}`}>
+                                <div> 
+                                   <img src={img} alt={brand} />
+                                </div>
+                                <div style={{background:'#F0F0E9'}}>
+                                    <h4 style={{paddingTop: 20}}>{price}</h4>
+                                    <p>{name}</p>
+                                    <button className="btn btn-default add-to-cart" disabled={inCart ? true : false} onClick={()=>{value.addToCart(id);}}><i className="fa fa-shopping-cart"></i>Add to cart</button>
+                                </div>
                             </Link>
-                            <button className="btn btn-default add-to-cart" disabled={inCart ? true : false} onClick={()=>{value.addToCart(id);}}><i className="fa fa-shopping-cart"></i>Add to cart</button>
+                            
                         </div>
                     </div>
                 </div>

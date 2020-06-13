@@ -6,11 +6,14 @@ const ProductContext = React.createContext();
 class ProductProvider extends Component { 
     state = {
             products: [],
+            filteredProducts:[],
+            sort: '',
             detailProduct: detailProduct,
             cart: [],
             cartSubTotal: 0,
             cartTax: 0,
-            cartTotal: 0
+            cartTotal: 0,
+            count: 0
     };
     componentDidMount(){
         this.setProducts();
@@ -22,7 +25,7 @@ class ProductProvider extends Component {
             tempProducts = [...tempProducts,singleItem];
         });
         this.setState(()=>{
-            return { products:tempProducts};
+            return { products:tempProducts, count: tempProducts.length};
         });
     };
     getItem =(id) =>{
@@ -127,6 +130,26 @@ class ProductProvider extends Component {
           }
       })
     }
+
+    handleChangeSort =(e) =>{
+        const { name, value} = e.target;
+        this.setState({[name]: value})
+        this.listProducts();
+     }
+
+    listProducts=()=>{
+       this.setState(state => {
+          if(state.sort !== ''){
+             state.products.sort((a,b)=>(state.sort === 'lowest')?
+             (a.price > b.price ? 1:-1)
+             :(a.price < b.price ? 1:-1))
+          } else{
+             state.products.sort((a,b)=>(a.id < b.id ? 1:-1));
+          }
+          return {products: state.products};
+       })
+     }
+
     render() { 
         return ( 
             <ProductContext.Provider value={{
@@ -136,7 +159,8 @@ class ProductProvider extends Component {
                 increment: this.increment,
                 decrement: this.decrement,
                 removeItem: this.removeItem,
-                clearCart: this.clearCart
+                clearCart: this.clearCart,
+                handleChangeSort: this.handleChangeSort
             }}>
                 {this.props.children}
             </ProductContext.Provider>

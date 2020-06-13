@@ -32,12 +32,12 @@ class Details extends Component {
                                   <p className="text-capitalize font-weight-bold mt-3 mb-0">some info about product:</p>
                                   <p className="text-muted lead ">{info}</p>
                                   <div>
-                                      <Link to="/productlist">
+                                      <Link to="/ethioLeather/productlist">
                                         <button className="btn btn-default add-to-cart mr-3">
                                             Back to products
                                         </button>
                                       </Link>
-                                      <Link to="/cartone">
+                                      <Link to="/ethioLeather/cartone">
                                         <button className="btn btn-default add-to-cart" onClick={()=>{value.addToCart(id)}}>{inCart ? "inCart": "Add to cart"}
                                         </button>
                                       </Link>  

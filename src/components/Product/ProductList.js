@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Product from '../Product/Product';
 import { ProductConsumer } from '../../context/context';
+import Filter from '../Filter/Filter';
 
 
 class ProductList extends Component {
@@ -9,7 +10,12 @@ class ProductList extends Component {
       
     return (
          <section className="productList">
-           <div className="popular text-center"><h2>Our product</h2></div>   
+           <div className="popular text-center"><h2>Our product</h2></div> 
+           <ProductConsumer>
+              { value => {   
+                return (<Filter sort={value.sort} handleChangeSort={value.handleChangeSort} count={value.count} />);    
+                      }}
+            </ProductConsumer> 
             <div className="container">
               <div className="row">
                   <ProductConsumer>

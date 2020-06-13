@@ -17,7 +17,7 @@ export default function EmptyCart() {
                         <tbody>
                             <tr>
                                 <td className="empty_cart_description">
-                                    <Link to="/productlist" className="btn btn-default back_to_shop">Return to Shop</Link>
+                                    <Link to="/ethioLeather/productlist" className="btn btn-default back_to_shop">Return to Shop</Link>
                                 </td>
                             </tr>
                         </tbody>

@@ -163,7 +163,7 @@
      {
          "id": 112,
          "title": "Shoes",
-         "name": "Wmns Nike Air Zoom Pegasus 35",
+         "name": "Wmns Nike Air",
          "brand": "NIKE",
          "img": "/ethioLeather/images/shoulderBags/shoulderBag02.jpg",
          "price": 1299,
@@ -289,7 +289,7 @@
     {
         "id": 121,
         "title": "Bags2",
-        "name": "W ULTRABOOST 19",
+        "name": "W ULTRABOOST",
         "brand": "Computer Bags",
         "img": "/ethioLeather/images/bags/bag02.jpg",
         "price": 1799,
@@ -303,7 +303,7 @@
     {
         "id": 122,
         "title": "Shoes",
-        "name": "AIR ZOOM PEGASUS 35",
+        "name": "AIR ZOOM",
         "brand": "Weekend Bags",
         "img": "/ethioLeather/images/bags/bag03.jpg",
         "price": 1299,

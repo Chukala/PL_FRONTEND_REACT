@@ -69,7 +69,7 @@ class Login extends Component{
                         </div>
                             <p>Don't have an account ?</p>
                         <div className="login_btn">
-                            <button><Link className="register-btn" to="/register">Register</Link></button>
+                            <button><Link className="register-btn" to="/ethioLeather/register">Register</Link></button>
                         </div>
                     </div>
                 </div>

@@ -19,28 +19,28 @@ class Footer extends Component {
                             <div className="footerboxtext">
                                 <h6>Would you Become a member in EthioLeather </h6>
                                 <p>EthioLeather allways invites you a fair price in all our product.</p>
-                                <a className="footerbutton" href="/">Read more</a>
+                                <a className="footerbutton" href="/ethioLeather">Read more</a>
                             </div>
                     </div>
                     <div className="footerbox">
                         <div className="footerboxtext1">
                             <h6>Contact us</h6>
-                            <li><a href="/">0771-499 499</a></li>
+                            <li><a href="/ethioLeather">0771-499 499</a></li>
                             <li>mån-fre: 9-20 | lör-sön: 10-18</li>
-                            <li><a href="/">email us here </a></li>
-                            <a href="/"><i className="fa fa-facebook" style={{fontSize:"24px"}}></i></a>
-                            <a href="/"><i className="fa fa-twitter" style={{fontSize:"24px"}}></i></a>
-                            <a href="/"><i className="fa fa-linkedin" style={{fontSize:"24px"}}></i></a>
-                            <a href="/"><i className="fa fa-dribbble" style={{fontSize:"24px"}}></i></a>
-                            <a href="/"><i className="fa fa-google-plus" style={{fontSize:"24px"}}></i></a>
-                            <a href="/"><i className="fa fa-instagram" style={{fontSize:"24px"}}></i></a>
+                            <li><a href="/ethioLeather">email us here </a></li>
+                            <a href="/ethioLeather"><i className="fa fa-facebook" style={{fontSize:"24px"}}></i></a>
+                            <a href="/ethioLeather"><i className="fa fa-twitter" style={{fontSize:"24px"}}></i></a>
+                            <a href="/ethioLeather"><i className="fa fa-linkedin" style={{fontSize:"24px"}}></i></a>
+                            <a href="/ethioLeather"><i className="fa fa-dribbble" style={{fontSize:"24px"}}></i></a>
+                            <a href="/ethioLeather"><i className="fa fa-google-plus" style={{fontSize:"24px"}}></i></a>
+                            <a href="/ethioLeather"><i className="fa fa-instagram" style={{fontSize:"24px"}}></i></a>
                         </div>
                     </div>
                     <div className="footerbox">
                         <div className="footerboxtext1">
                             <h6>Explore</h6>
-                                <li><a href="/">Account</a></li>
-                                <li><a href="/">Integritetspolicy</a></li>       
+                                <li><a href="/ethioLeather">Account</a></li>
+                                <li><a href="/ethioLeather">Integritetspolicy</a></li>       
                         </div>
                     </div>
                     <div className="footerbox">

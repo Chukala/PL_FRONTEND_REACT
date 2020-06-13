@@ -9,11 +9,15 @@ const TitleDiv = styled.div`
       width: 100%;
       display: flex;
       justify-content: center;
-      align-item: center
+      align-item: center;
+      margin: 0px auto;
 `;
 const Title = styled.h2`
-     padding: '10px';
-     margin: 10px auto;
+     padding: 5px;
+     @media only screen and (max-width: 600px) {
+       font-size: 30px;
+      
+  }
 `;
 
 

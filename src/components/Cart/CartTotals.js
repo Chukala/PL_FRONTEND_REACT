@@ -8,7 +8,7 @@ export default function CartTotals({value}) {
             <div className="container">
               <div className="row">
                   <div className="col-10 mt-2 ml-sm-5 ml-md-auto col-sm-8 text-capitalize text-right">
-                     <Link to="/productlist">
+                     <Link to="/ethioLeather/productlist">
                          <button className="btn btn-outline-danger text-uppercase mb-3 px-5" type="button" onClick={()=>clearCart()}>
                              clear cart
                          </button>
@@ -26,7 +26,7 @@ export default function CartTotals({value}) {
               </div>
               <div className="row">
                 <div className="col-10 mt-2 ml-sm-5 ml-md-auto col-sm-8 text-right">
-                  <Link className="btn btn-default check_out mr-3 text-right" to="/checkout" value={value}>Proceed to Check Out</Link>
+                  <Link className="btn btn-default check_out mr-3 text-right" to="/ethioLeather/checkout" value={value}>Proceed to Check Out</Link>
                 </div>
               </div>
             </div>

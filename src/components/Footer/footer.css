@@ -96,3 +96,12 @@
     color: #FE980F;
     text-decoration: none;
 }
+
+@media(max-width: 600px){
+    .footerwrapper{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+    }
+}

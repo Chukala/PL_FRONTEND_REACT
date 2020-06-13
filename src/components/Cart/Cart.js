@@ -23,7 +23,7 @@ class Cart extends Component{
                                 <tbody>
                                     <tr>
                                         <td className="empty_cart_description">
-                                            <Link to="/" className="btn btn-default back_to_shop">Return to Shop</Link>
+                                            <Link to="/productlist" className="btn btn-default back_to_shop">Return to Shop</Link>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -52,7 +52,7 @@ class Cart extends Component{
                             {cartItems.map(item =>
                                 <tr>
                                     <td className="cart_product">
-                                        <Link to="/"><img src={item.img} alt="cart-img"/></Link>
+                                        <Link to="/ethioLeather"><img src={item.img} alt="cart-img"/></Link>
                                     </td>
                                     
                                     <td className="cart_description">
@@ -90,7 +90,7 @@ class Cart extends Component{
                                             <li>Shipping Cost <span>Free</span></li>
                                             <li>Total <span>{cartItems.reduce((a,c) => a + c.price * c.count, 0)}</span></li>
                                         </ul>
-                                        <Link className="btn btn-default check_out" to="/checkout" cartItems={cartItems}>Check Out</Link>
+                                        <Link className="btn btn-default check_out" to="/ethioLeather/checkout" cartItems={cartItems}>Check Out</Link>
                                 </div>
                             </div>
                         </div>

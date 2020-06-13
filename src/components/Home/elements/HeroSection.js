@@ -7,4 +7,9 @@ export default styled.section `
   height: 600px;
   position: relative;
   margin: 0px auto 4em auto;
+  @media only screen and (max-width: 600px) {
+    margin: 0px auto;
+    padding: 0em;
+    height: 500px;
+}
 `;
